@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<title>My Parliament - Home </title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="../static/css/home.css">
+<link rel="stylesheet" href="../static/css/simple-grid.css">
+<link rel="stylesheet" href="../static/css/courses.css">
+<link rel="stylesheet" href="../static/css/coursesres.css">
+<style>
+ ::-webkit-scrollbar {
+   width: 5px;
+   height:7px;
+
+  }
+ /* Track */
+   ::-webkit-scrollbar-track {
+     background: #888; 
+    }
+
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+    background: lightgrey; 
+  }
+
+  /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+    background: green; 
+  }
+@font-face{
+	font-family:'Gilroy-ExtraBold';
+	src:url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'Gilroy-Light';
+	src:url('../fonts/Gilroy-Light.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'SF';
+	src:url('../fonts/SF-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'Etna';
+	src:url('../fonts/etna.ttf') format('truetype');
+}
+.test_cont div{
+	box-shadow: 2px 4px 14px 2px rgba(0,0,0,0.2);
+	padding:20px 40px 20px 40px;
+	margin-left:10px;
+	font-size:1.2em;
+	font-family: 'Josefin Sans',sans-serif;
+	text-align:justify;
+	min-width:250px;
+
+}
+    
+h2
+{
+	margin-block-start:0px;	
+	margin-block-end:0px;
+	padding-left:5%;
+	margin-bottom: -4%;
+	margin-top: 3%;
+}
+
+</style>
+
+
+<body>
+<div class="row">
+<div class="test_sec" style="padding:0px 0px;">
+<H2 style="margin-top: 9%;">MY COURSES</H2>
+<div class="test_wrap" style="line-height: 1px;">
+<div class="row">
+			
+			<div class="col-2"></div>
+				<div class="col-12 test_cont" style="margin: 60px;">
+				<div style="padding: 20px 40px;">
+					
+						<section style="padding:4px;">					
+					  <img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+					
+					</div>
+				
+					
+                       <div>
+                        <section style="padding:4px;">					
+					     <img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						
+					 </div>	
+
+
+				       <div>
+				       	<section style="padding:4px;">					
+					   <img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+					   </div>	
+
+
+				      <div>
+                      <section style="padding:4px;">					
+					   <img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						</div>
+
+			          <div>
+				    <section style="padding:4px;">					
+					<img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						</div>
+			</div>
+      </div>
+	</div>
+</div>
+
+<div class="test_sec" style="padding: 0px 0px;">
+<H2>MY OLYMPIADS</H2>
+ <div class="test_wrap">
+		<div class="row">
+			<div class="col-2"></div>
+				<div class="col-12 test_cont" style="margin: 60px;">
+				<div>
+					<!-- "My Parliament is a fantastic effort to bring knowledge of governance and civics to young people of this country. '' 
+					<br><br><br><br>
+							-Shri Jayant Sinha, 
+							Minister of State 
+						for Civil Aviation -->
+						<section style="padding:4px;">					
+					     <img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						
+					</div>
+				<div>
+					
+                       <section style="padding:4px;">					
+					<img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						</div>	
+
+				<div>
+					<section style="padding:4px;">					
+					<img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						</div>
+
+				<div>
+					<section style="padding:4px;">					
+					<img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						</div>
+				 <div>
+					<section style="padding:4px;">					
+					<img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+					</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<div class="test_sec" style="padding: 0px 0px; ">
+<h2>MY EVENTS </h2>
+ <div class="test_wrap">
+	<div class="row">
+		<div class="col-2"></div>
+			<div class="col-12 test_cont" style="margin: 60px;">
+				<div>
+					<!-- "My Parliament is a fantastic effort to bring knowledge of governance and civics to young people of this country. '' 
+					<br><br><br><br>
+							-Shri Jayant Sinha, 
+							Minister of State 
+						for Civil Aviation -->
+						<section style="padding:4px;">					
+					   <img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						</div>
+
+				  <div>
+					 <section style="padding:4px;">					
+					  <img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						</div>	
+				   
+				   <div>
+					<section style="padding:4px;">					
+					<img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						</div>	
+
+				  <div>
+					<section style="padding:4px;">					
+					<img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						</div>
+
+								  <div>
+					<section style="padding:4px;">					
+					<img src="../static/img/1.jpg" style="width:90%;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+						</section>
+						<section style="line-height: 0.2em;">
+							<a href="#" style="padding:0px 0px 0px 5px;line-height: 0.6em;">{{course.name}}</a>
+							<p style="line-height: 0.2em;">By {{course.author}}</p>
+							<a href="#">{{course.duration}}</a>
+						</section>
+						</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!--
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript">
+	{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    {% for message in messages %}
+      swal('{{message}}');
+    {% endfor %}
+  {% endif %}
+{% endwith %}
+</script>
+-->
+
+</body>

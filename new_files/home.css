@@ -1,0 +1,296 @@
+@font-face{
+	font-family:'Gilroy-ExtraBold';
+	src:url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'Gilroy-Light';
+	src:url('../fonts/Gilroy-Light.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'SF';
+	src:url('../fonts/SF-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family:'Etna';
+	src:url('../fonts/etna.ttf') format('truetype');
+}
+
+body{
+	overflow:hidden;
+}
+
+
+
+
+
+
+.wrapper{
+	background:url("../img/mp.png") no-repeat;
+	background-size: contain;
+	width:100%;
+	height:100vh;
+	position: absolute;
+	left:0;
+	top:0;
+
+}
+
+
+
+a.login_btn{
+	color: #fff;
+}
+/************************************************/
+
+
+
+.sm_list{
+	font-size:1.3em;
+	margin-top:90px;
+	margin-left:10px;
+	display: none;
+}
+
+.sm_list a{
+	text-decoration: none;
+	color:#fff;
+	font-family: 'SF';
+	padding-left: 30px;
+}
+
+
+
+
+
+/************************************************/
+.motto{
+	position: relative;
+	text-align: center;
+	top:28%;
+	font-size: 4em;
+	color:#000;
+	font-family:'Etna';
+}
+
+
+
+
+
+.bg_img{
+	background:url("../img/events.jpg") no-repeat;
+	background-size:cover;
+	width:100%;
+	height:100vh;
+
+}
+
+
+
+.box_wrap{
+	display: flex;
+	margin:100vh auto 0 auto;	
+	margin-left:-50px;
+	align-items:baseline;
+	text-align: justify;
+	box-sizing:border-box;
+	font-family: 'Josefin Sans',sans-serif;
+	border-top:1px solid rgba(0,0,0,0.2);
+}
+
+.box .cont{
+	font-size:1.7em;
+	line-height: 42px;
+	font-family: 'SF';
+	align-self: flex-end;
+}
+
+
+
+.m_h{
+	transform: rotateZ(270deg);
+	line-height:60px;
+/*	margin-top:200px;
+*/	align-self:center;
+	font-size: 5em;
+	font-family: 'Gilroy-ExtraBold';
+}
+
+
+.mission{
+	flex:2;
+	margin-left:-56px;
+	align-self: center;
+	flex-basis: 30%;
+}
+
+
+.who{
+	flex:4;
+	margin-left:30px;
+	padding:60px 70px 45px 50px;
+	box-sizing: border-box;
+	background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+	color:#fff;
+	flex-basis: 30%;
+}
+
+
+.who .cont{
+	font-family: 'SF';
+
+}
+.who h1{
+	line-height: 65px;
+	font-size: 5em;
+	font-family:'Gilroy-ExtraBold';
+}
+
+
+.events_sec{
+	background: url("../img/events.jpg") fixed no-repeat;
+	background-size: cover;
+	padding-top:80px;
+	padding-bottom:75px;
+	padding-left:80px;
+}
+
+
+.events_table{
+	background-color: rgba(255,255,255,0.7);
+	width:28%;
+	min-width: 300px;
+	font-family: 'Josefin Sans',sans-serif;
+	box-sizing: border-box;
+	padding:10px 40px 5px 10px;
+}
+
+
+.events_table ul li{
+	list-style-type: none;
+}
+
+.events_table ul li:not(:last-child){
+	font-size: 1.5em;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+.events_table ul li:last-child{
+	text-align: center;
+	padding-top:15px;
+}
+
+.events_table ul li:not(:first-child){
+	border-top:0.5px solid rgba(0,0,0,0.3);
+}
+
+.events_table a {
+	color:#000;
+	text-decoration: none;
+}
+
+
+.events_h{
+	font-size:5.2em;
+	color:#fff;
+	font-weight: bolder;
+	font-family: 'Gilroy-ExtraBold';
+	text-align: right;
+}
+
+
+.see_h{
+	font-size:3.5em;
+	line-height: 55px;
+	font-family: 'Gilroy-ExtraBold';
+	padding-top:50px;
+	text-align: justify;
+
+	/*background:linear-gradient(#F0A819,#FF6337);*/
+}
+
+
+
+.test_sec{
+	padding-top:120px;
+	padding-bottom:120px;
+}
+
+.test_box{
+	font-family:'SF';
+	font-size:1.5em;
+	text-align: justify;
+	padding:20px 30px 20px 30px;
+}
+
+.test_cont{
+	display: flex;
+	
+}
+
+.test_cont div{
+	box-shadow: 2px 4px 14px 2px rgba(0,0,0,0.2);
+	padding:20px 40px 20px 40px;
+	margin-left:10px;
+	font-size:1.5em;
+	font-family: 'Josefin Sans',sans-serif;
+	text-align:justify;
+	min-width:250px;
+        overflow:hidden;
+}
+
+
+
+
+.part_sec_wrap{
+	padding-top:50px;
+	padding-left:50px;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.part_h{
+	flex:1;
+}
+
+
+.part_img{
+	flex:4;
+	text-align: center;
+}
+
+
+.part_img img{
+	width:200px;
+	margin-top:10px;
+	margin-left:50px;
+}
+
+
+.p_h{
+	font-size:4em;
+	line-height: 55px;
+	font-weight: bold;
+	font-family: 'Gilroy-ExtraBold';
+}
+
+
+
+
+
+
+
+
+
+
+
+.p_h{
+	transform: rotate(270deg);
+	margin-top:100px;
+}
+
+
